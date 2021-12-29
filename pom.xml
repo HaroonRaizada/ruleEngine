@@ -3,4 +3,11 @@
   <groupId>com.ruleEngine</groupId>
   <artifactId>ruleEngine</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>javax.mail</groupId>
+  		<artifactId>mail</artifactId>
+  		<version>1.5.0-b01</version>
+  	</dependency>
+  </dependencies>
 </project>

@@ -1,8 +1,8 @@
 package rule;
 
-public interface RuleExecutor<T> {
+public interface RuleExecutor<T,S> {
 	
-	public T executePreRule(String orderType);
-	public void executeRule(T inputIntance);
+	public S executePreRule(T inputIntance);
+	public T executeRule(T inputIntance);
 
 }

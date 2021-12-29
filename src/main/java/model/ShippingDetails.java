@@ -6,6 +6,14 @@ public class ShippingDetails {
 	private String lastName;
 	private Double cost;
 	private String shippingAddress;
+	private String recipientEmailId;
+
+	public String getRecipientEmailId() {
+		return recipientEmailId;
+	}
+	public void setRecipientEmailId(String recipientEmailId) {
+		this.recipientEmailId = recipientEmailId;
+	}
 	public String getFirstName() {
 		return firstName;
 	}
