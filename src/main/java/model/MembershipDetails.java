@@ -1,19 +1,19 @@
 package model;
 
-public class ShippingDetails {
+public class MembershipDetails {
 
 	private String firstName;
 	private String lastName;
 	private Double cost;
 	private String shippingAddress;
 	private String recipientEmailId;
-	private String message;
+	private String messageBody;
 
-	public String getMessage() {
-		return message;
+	public String getMessageBody() {
+		return messageBody;
 	}
-	public void setMessage(String message) {
-		this.message = message;
+	public void setMessageBody(String messageBody) {
+		this.messageBody = messageBody;
 	}
 	public String getRecipientEmailId() {
 		return recipientEmailId;
